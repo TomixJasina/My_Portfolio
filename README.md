@@ -1,6 +1,5 @@
 # My Portfolio - Module 2 Challenge
 
-- [My Portfolio - Module 2 Challenge](#my-portfolio---module-2-challenge)
   - [1. Description](#1-description)
   - [2. Installation](#2-installation)
   - [3. Usage](#3-usage)
@@ -19,7 +18,7 @@ I broadened my grasp of HTML and CSS, employing them to create seamless browsing
 
 ## 2. Installation
 
-1. Dowload the repository to your local machine with this command
+1. Download the repository to your local machine with this command
 
 ```sh
 git clone https://github.com/TomixJasina/My_Portfolio
@@ -40,9 +39,9 @@ Use this project to learn more about me and my other projects. Jump to specific 
 
 - webpage welcomes you with my name and my recent photo
 - My Porftolio is divided to three sections:
-    1. About me
-    2. Work
-    3. Contact me
+    - About me
+    - Work
+    - Contact me
 - you can jump to each sections by using navigation link located in the top of webpage
 - in the ```Work``` section you can see all of my recent applications with added title of project, tools which I used in current project and image of a specific application
 - you can check each of my applications simply by clicking on the image representing section that you are intrested in
