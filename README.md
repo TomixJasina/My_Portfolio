@@ -16,6 +16,8 @@ I created this portfolio with the goal of building a robust online identity and 
 During this project's evolution, I acquired valuable insights into crafting a flexible and visually captivating website layout. 
 I broadened my grasp of HTML and CSS, employing them to create seamless browsing, adaptable designs, and engaging interactive elements.
 
+
+
 ## 2. Installation
 
 1. Download the repository to your local machine with this command
@@ -32,6 +34,8 @@ git clone https://github.com/TomixJasina/My_Portfolio
 Use this project to learn more about me and my other projects. Jump to specific sections by using the navigation bar on the top of webpage.
 
 ## 4. Screenshot
+
+Link to application: https://tomixjasina.github.io/My_Portfolio/
 
 ![alt text](./assets/web%20img.png)
 
