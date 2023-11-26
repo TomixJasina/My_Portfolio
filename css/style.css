@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/stars\ 2.jpg")
+}
+
+:root {
+    --black : #000000;
+    --white: #fff;
+    --background: 139, 139, 139, 0.5;
+}
+/* Selectors */
+
+h1, p {
+    color: var(--white);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    margin: 50px;
+    padding: 50px;
+}
+.aside {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-right: 3px inset var(--white);
+
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+/* Header section */
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#webTitle {
+    width: 20%;
+    font-size: 60px;
+    padding-left: 60px;
+    background-color: rgb(var(--background));
+    border-radius: 0 25px 25px 0;
+}
+
+#navHead {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.headButtons {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--white);
+    text-decoration: none;
+    border-style: inset;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+/* Head nav visual effects */
+
+.headButtons:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* Hero banner Section */
+
+#myPhoto {
+    align-items: flex-end;
+    justify-self: flex-end;
+    padding:15px;
+}
+
+#photo {
+    height: 150px;
+    width: 100%;
+    border: none;
+    border-radius: 50% 50%;
+}
+
+#myName {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(var(--background));
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 25px 0 0 0;
+
+}
+
+.hero-banner {   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/cloud.jpg");
+    background-size:cover;
+    background-position: center;
+ 
+}
+
+/* About me section */
+
+#text {
+    font-size: 24px;
+}
+
+/* Proftolio sectcion */
+
+article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "Horiseon Horiseon mars"
+        "Horiseon Horiseon earth"
+        "preWork preWork moon";
+}
+
+/* Grid Styling */
+
+.gridStyle {
+    border: outset var(--white) 5px;
+    border-radius: 25px 0 25px 0 ;
+    background-size:cover;
+    background-position: center;
+}
+
+.textChild {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 1s;
+}
+/* Grid visual effects */
+ 
+#Horiseon:hover,
+#preWork:hover,
+#earth:hover,
+#moon:hover,
+#mars:hover {
+    transform: scale(1.1);
+}
+
+.gridStyle:hover .textChild {
+    height:80%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+/* Grid childs */
+
+#Horiseon {
+    grid-area: Horiseon;
+    background-image: url("../images/Horseon.png");
+    transition: transform 0.3s;
+}
+
+#preWork {
+    grid-area: preWork;
+    background-image: url("../images/prework.png");
+    transition: transform 0.3s;
+}
+
+#earth {
+    grid-area: earth;
+    background-image: url("../images/earth.jpg");
+    transition: transform 0.3s;
+}
+
+#moon {
+    grid-area: moon;
+    background-image: url("../images/moon.jpg");
+    transition: transform 0.3s;
+}
+
+#mars {
+    grid-area: mars;
+    background-image: url("../images/mars.png");
+    transition: transform 0.3s;
+}
+
+/* Contact section */
+
+.links {
+    justify-content:space-around;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactButtom {
+    border: outset var(--white) 5px;
+    border-radius: 5px;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.contactButtom img {
+    width: 50px;
+    width: 50px;
+}
+
+/* Contact me buttoms visual effects */
+
+.contactButtom:hover {
+    transform: scale(2.5);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--white);
+}
+
+/* For screens max of 600px */
+
+@media only screen and (max-width: 600px) {
+
+.flex {
+    flex-direction: column;
+}
+  
+.aside {
+    width: auto;
+    border-right: none;
+    border-bottom: 3px inset var(--white);
+    
+}
+
+.content {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+header {
+    height: auto;
+}
+
+#webTitle {
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(var(--background));
+    border-radius: 25px;
+}
+
+#navHead {
+    width: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#myName {
+    font-size: 40px;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "Horiseon"
+        "preWork"
+        "earth"
+        "moon"
+        "mars";
+}
+
+.links {
+    justify-content:space-between;
+}
+
+}
+
+/* For screens max of 1024px */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .flex {
+        flex-direction: column;
+    }
+      
+    .aside {
+        width: auto;
+        border-right: none;
+        border-bottom: 3px inset var(--white);
+        
+    }
+    
+    .content {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 25px;
+    }
+    
+    header {
+        height: auto;
+    }
+    
+    #webTitle {
+        width: auto;
+        font-size: 50px;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(var(--background));
+        border-radius: 0 0 25px 25px;
+    }
+    
+    #myName {
+        font-size: 50px;
+    }
+
+    #navHead {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "Horiseon"
+            "preWork preWork earth"
+            "moon moon mars";
+    }
+    
+}
+    
