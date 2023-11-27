@@ -31,11 +31,11 @@ git clone https://github.com/TomixJasina/My_Portfolio
 
 ## 3. Usage
 
+Link to application: https://tomixjasina.github.io/My_Portfolio/
+
 Use this project to learn more about me and my other projects. Jump to specific sections by using the navigation bar on the top of webpage.
 
 ## 4. Screenshot
-
-Link to application: https://tomixjasina.github.io/My_Portfolio/
 
 ![alt text](./assets/web%20img.png)
 
@@ -60,7 +60,7 @@ Link to application: https://tomixjasina.github.io/My_Portfolio/
 
 ## 7. Credits 
 
-Many thanks to all Istructors, TA and my collagues who helped me finishing this project.
+Many thanks to all Instructors, TA and my collagues who helped me finishing this project.
 
 Images of boxes and Contact Me buttoms: https://www.wikipedia.org/
 
